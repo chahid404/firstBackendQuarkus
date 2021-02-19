@@ -1,0 +1,11 @@
+INSERT INTO provider(id, email, name) VALUES (1, 'contact@samsung.com', 'Samsung');
+INSERT INTO provider(id, email, name) VALUES (2, 'contact@apple.com', 'Apple');
+INSERT INTO provider(id, email, name) VALUES (3, 'contact@asus.com', 'Asus');
+INSERT INTO product(id, quantite, designation,price,provider_id) VALUES (1, 100,'Galaxy S21',3150,1);
+INSERT INTO product(id, quantite, designation,price,provider_id) VALUES (2, 80,'Galaxy S21 plus',3450,1);
+INSERT INTO product(id, quantite, designation,price,provider_id) VALUES (3, 30,'Galaxy S21 ultra',4150,1);
+INSERT INTO product(id, quantite, designation,price,provider_id) VALUES (4, 50,'Iphone 12',3459,2);
+INSERT INTO product(id, quantite, designation,price,provider_id) VALUES (5, 99,'Iphone 12 PRO',3449,2);
+INSERT INTO product(id, quantite, designation,price,provider_id) VALUES (6, 10,'Iphone 12 PRO MAX',4659,2);
+INSERT INTO product(id, quantite, designation,price,provider_id) VALUES (7, 10,'PC ASUS I7',1950,3);
+INSERT INTO product(id, quantite, designation,price,provider_id) VALUES (8, 10,'PC ASUS I3',1299,3);
